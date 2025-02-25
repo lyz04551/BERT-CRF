@@ -3,6 +3,7 @@ from torch.nn.utils.rnn import pad_sequence
 from torchcrf import CRF
 
 
+
 class BertNER(BertPreTrainedModel):
     def __init__(self, config):
         super(BertNER, self).__init__(config)
